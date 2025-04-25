@@ -68,6 +68,10 @@
   background-color: $instagram;
 }
 
+.docker i {
+  background-color: $docker;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -76,6 +80,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
+.docker i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
