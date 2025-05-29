@@ -9,12 +9,18 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  console.log("contactInfo completo:", contactInfo);
+  console.log("contactInfo.number:", contactInfo.number);
+  console.log("typeof contactInfo.number:", typeof contactInfo.number);
+  console.log("contactInfo.number boolean:", !!contactInfo.number);
+  
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            {/* <h1 className="heading contact-title">{contactInfo.title}</h1> */}
+            <h1 className="heading contact-title"></h1>
             <p
               className={
                 isDark
