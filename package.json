@@ -1,13 +1,12 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "https://JulianAnturi.github.io/portfolio-eng/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "gh-pages": "^6.3.0",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",
     "node-sass": "^9.0.0",
@@ -22,10 +21,19 @@
     "sass": "^1.32.8"
   },
   "scripts": {
+ "predeployes": "npm run buildes",
+  "deployes": "gh-pages -d build -b gh-pages",
+
+  "predeployen": "npm run builden",
+  "deployen": "gh-pages -d build -b gh-pages-english3",
+
+  "buildes": "REACT_APP_LANG=es node fetch.js && react-scripts build",
+  "builden": "REACT_APP_LANG=en node fetch.js && react-scripts build",
+
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build -b gh-pages-eng-deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -54,6 +62,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
+    "gh-pages": "^6.3.0",
     "prettier": "^2.3.1"
   }
 }
