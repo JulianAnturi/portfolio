@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-eng/static/css/main.2d08fadf.css",
+    "main.js": "/portfolio-eng/static/js/main.b1039926.js",
+    "static/css/364.80f7053c.chunk.css": "/portfolio-eng/static/css/364.80f7053c.chunk.css",
+    "static/js/364.5dceae2a.chunk.js": "/portfolio-eng/static/js/364.5dceae2a.chunk.js",
+    "static/css/584.c594d32d.chunk.css": "/portfolio-eng/static/css/584.c594d32d.chunk.css",
+    "static/js/584.1909ba24.chunk.js": "/portfolio-eng/static/js/584.1909ba24.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/portfolio-eng/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/portfolio-eng/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/biblioteca.png": "/portfolio-eng/static/media/biblioteca.0f21a46a9bf121bdd5c8.png",
+    "static/media/composer.png": "/portfolio-eng/static/media/composer.61bd311885454875098a.png",
+    "static/media/busuu.jpg": "/portfolio-eng/static/media/busuu.6af0780abdf54f56e96a.jpg",
+    "static/media/travel_club.png": "/portfolio-eng/static/media/travel_club.4dc4369043a140b732ee.png",
+    "static/media/manOnTable.svg": "/portfolio-eng/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/portfolio-eng/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/sena.png": "/portfolio-eng/static/media/sena.2e1a6f8c4ef065c7fa77.png",
+    "static/media/developerActivity.svg": "/portfolio-eng/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/node_farm.png": "/portfolio-eng/static/media/node_farm.e6d3f08852738d244c79.png",
+    "static/media/anal.jpg": "/portfolio-eng/static/media/anal.132a895df05520b87736.jpg",
+    "index.html": "/portfolio-eng/index.html",
+    "static/media/skill.svg": "/portfolio-eng/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/portfolio-eng/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "static/media/talksCardBack.svg": "/portfolio-eng/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.2d08fadf.css.map": "/portfolio-eng/static/css/main.2d08fadf.css.map",
+    "main.b1039926.js.map": "/portfolio-eng/static/js/main.b1039926.js.map",
+    "364.80f7053c.chunk.css.map": "/portfolio-eng/static/css/364.80f7053c.chunk.css.map",
+    "364.5dceae2a.chunk.js.map": "/portfolio-eng/static/js/364.5dceae2a.chunk.js.map",
+    "584.c594d32d.chunk.css.map": "/portfolio-eng/static/css/584.c594d32d.chunk.css.map",
+    "584.1909ba24.chunk.js.map": "/portfolio-eng/static/js/584.1909ba24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d08fadf.css",
+    "static/js/main.b1039926.js"
+  ]
+}
