@@ -1,5 +1,5 @@
 {
-  "homepage": "/",
+  "homepage": "https://JulianAnturi.github.io/portfolio-eng/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -67,3 +67,4 @@
     "prettier": "^2.3.1"
   }
 }
+
