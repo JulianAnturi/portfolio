@@ -45,10 +45,10 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "I really love developing apps on my free times",
+  subTitle: "I really love developing web apps on my free time",
  skills: [
     emoji(
-      "⚡ My  daily work flow includes tools like, Neovim, Linux, planner version control as Git, upgrading my environments to achieve a better productivity and accurance on every project"
+      "⚡ My  daily work flow includes tools like, Neovim, Linux, planner version control as Git and dockerhub, upgrading my environments to achieve a better productivity and accurance on every project"
 
     ),
     emoji("⚡ I have Developed an product using computer vision implemented by YOLOV8"),

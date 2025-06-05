@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
+    "font-awesome": "^4.7.0",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",
     "node-sass": "^9.0.0",
@@ -23,16 +25,14 @@
   "scripts": {
     "predeployes": "npm run buildes",
     "deployes": "gh-pages -d build -b gh-pages",
-
     "predeployen": "npm run builden",
     "deployen": "gh-pages -d build -b gh-pages-english4",
-
     "buildes": "REACT_APP_LANG=es node fetch.js && react-scripts build",
     "builden": "REACT_APP_LANG=en node fetch.js && react-scripts build",
     "predeploy": "npm run build",
     "starten": "node fetch.js && react-scripts start",
-    "start": "serve -s build -l 3000",
-    "startold": "HOST=0.0.0.0 PORT=3000 react-scripts start",
+    "startss": "serve -s build -l 3000",
+    "start": "HOST=0.0.0.0 PORT=3000 react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -d build -b gh-pages-eng-deploy",
     "test": "react-scripts test",
